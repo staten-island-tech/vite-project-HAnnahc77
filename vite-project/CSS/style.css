@@ -1,0 +1,24 @@
+body,
+html,
+* {
+    font-size: 10px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+:root {
+--light-white: #f1f7f1;
+--dark-blue: #36235a;
+--light-blue: #235d92;
+--light-grey: #acbad1;
+--light-red: #e91c26;
+--dark-red:#72151e;
+}
+
+.warm{
+background-color: var(--light-red);
+}
+
+.cool{
+
+}
