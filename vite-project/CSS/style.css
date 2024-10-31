@@ -13,12 +13,26 @@ html,
 --light-grey: #acbad1;
 --light-red: #e91c26;
 --dark-red:#72151e;
+
+--h1: 7.594rem;
+}
+
+body{
+    background-color: var(--primary);
+color: var(--secondary);
 }
 
 .warm{
-background-color: var(--light-red);
+--primary: var(--light-red);
+--secondary: var(--dark-red);
 }
 
 .cool{
+--primary: var(--dark-blue);
+--secondary: var(--light-grey);
+}
 
+h1{
+    font-size: var(--h1);
+    text-align: center;
 }
