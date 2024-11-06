@@ -6,6 +6,15 @@ html,
     margin: 0;
     padding: 0;
 }
+
+button{
+    transform: scale(1.5);
+}
+
+button:hover {
+    transform: scale(1.8);
+}
+
 :root {
 --light-white: #f1f7f1;
 --dark-blue: #36235a;
@@ -20,6 +29,8 @@ html,
 body{
     background-color: var(--primary);
 color: var(--secondary);
+text-align: center;
+align-items: center;
 }
 
 .warm{
@@ -34,5 +45,5 @@ color: var(--secondary);
 
 h1{
     font-size: var(--h1);
-    text-align: center;
+    padding-bottom: 7px;
 }
