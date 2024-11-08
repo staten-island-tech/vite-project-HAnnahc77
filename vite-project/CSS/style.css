@@ -8,10 +8,12 @@ html,
 }
 
 button {
+    align-items: center;
     transform: scale(1.5);
     color: var(--secondary);
     border-color: var(--turtiary);
     background-color: var(--primary);
+    margin-bottom: 5px;
 
 }
 
@@ -37,7 +39,6 @@ body {
     background-color: var(--primary);
     color: var(--secondary);
     text-align: center;
-    align-items: center;
 }
 
 .card {
@@ -48,7 +49,7 @@ body {
     color: var(--secondary);
     border-color: var(--primary);
     background-color: var(--turtiary);
-    width: 400px;
+    width:400px;
 }
 
 .spacing {
@@ -71,21 +72,22 @@ body {
 
 h1 {
     font-size: var(--h1);
-    padding-bottom: 7px;
+    align-items: center;
 }
 
 h2 {
     font-size: var(--h2);
-    padding-bottom: 7px;
 }
 
 h3 {
     font-size: var(--h3);
-    padding-bottom: 7px;
 }
 
 p {
     font-size: var(--p);
+}
+
+.padding {
     padding-bottom: 7px;
 }
 
