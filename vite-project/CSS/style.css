@@ -28,6 +28,9 @@ button:hover {
     --dark-red: #72151e;
 
     --h1: 7.594rem;
+    --h2: 5.063rem;
+    --h3: 3.375rem;
+    --p: 2.25rem;
 }
 
 body {
@@ -68,6 +71,21 @@ body {
 
 h1 {
     font-size: var(--h1);
+    padding-bottom: 7px;
+}
+
+h2 {
+    font-size: var(--h2);
+    padding-bottom: 7px;
+}
+
+h3 {
+    font-size: var(--h3);
+    padding-bottom: 7px;
+}
+
+p {
+    font-size: var(--p);
     padding-bottom: 7px;
 }
 

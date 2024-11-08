@@ -13,12 +13,16 @@ DOMSelectors.button.addEventListener("click", function () {
 });
 
 albums.forEach((album) => {
-  DOMSelectors.body.insertAdjacentHTML("beforeend", `<div class="spacing">
+  DOMSelectors.body.insertAdjacentHTML(
+    "beforeend",
+    `<div class="spacing">
     <div class="card">
-        <h1 id="card-header">${album.name}</h1>
+        <h2 id="card-header">${album.name}</h2>
         <img src="${album.image}" alt="Album Image">
-        <h2>${album.genre, album.language}</h2>
+        <h3>${album.genre}</h3>
+        <h3>${album.language}</h3>
         <p>${album.price}</p>
       </div>
-      </div>`)
+      </div>`
+  );
 });
