@@ -1,6 +1,11 @@
 const DOMSelectors = {
   button: document.querySelector(".button"),
+  spacing: document.querySelector(".spacing"),
   body: document.querySelector("body"),
+  allButton: document.querySelector(".allButton"),
+  cheapButton: document.querySelector(".cheapButton"),
+ expensiveButton: document.querySelector(".expensiveButton"),
+ popButton: document.querySelector(".popButton"),
 };
 
 const albums = [
@@ -90,7 +95,7 @@ const albums = [
   },
   {
     name: "No. 6 Collaborations Project",
-    genre: "Pop/Rap",
+    genre: "Pop",
     language: "English",
     image: "./Images/cover13.jfif",
     price: 11.99,
@@ -104,7 +109,7 @@ const albums = [
   },
   {
     name: "Unorthodox Jukebox",
-    genre: "Pop/Funk",
+    genre: "Pop",
     language: "English",
     image: "./Images/cover15.jfif",
     price: 9.99,

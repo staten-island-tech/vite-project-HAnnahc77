@@ -8,17 +8,21 @@ html,
 }
 
 button {
-    align-items: center;
     transform: scale(1.5);
     color: var(--secondary);
     border-color: var(--turtiary);
     background-color: var(--primary);
-    margin-bottom: 5px;
-
 }
 
 button:hover {
     transform: scale(1.8);
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-bottom: 20px;
 }
 
 :root {
@@ -49,7 +53,7 @@ body {
     color: var(--secondary);
     border-color: var(--primary);
     background-color: var(--turtiary);
-    width:400px;
+    width: 400px;
 }
 
 .spacing {
